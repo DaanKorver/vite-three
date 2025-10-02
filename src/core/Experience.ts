@@ -39,7 +39,10 @@ export default class Experience {
 		this.time.on('tick', this.update.bind(this))
 	}
 
-	private resize() {}
+	private resize() {
+		this.camera.resize()
+		this.renderer.resize()
+	}
 
 	private update() {
 		this.camera.update()
