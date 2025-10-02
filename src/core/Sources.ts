@@ -5,11 +5,11 @@ export type Source = {
 }
 
 const sources: Source[] = [
-	{
-		name: 'pupilTexture',
-		type: 'texture',
-		path: ['/textures/pupil.jpg'],
-	},
+	// {
+	// 	name: 'someTexture',
+	// 	type: 'texture',
+	// 	path: ['/textures/someTexture.jpg'],
+	// },
 ]
 
 export default sources
